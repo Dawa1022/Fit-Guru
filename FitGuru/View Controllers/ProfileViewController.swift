@@ -10,11 +10,15 @@ import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var profileNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+
+    
     
 
     /*
