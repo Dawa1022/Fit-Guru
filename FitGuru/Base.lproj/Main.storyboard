@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -145,7 +145,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="599" id="jIb-Jw-nRx" customClass="PostCell" customModule="FitGuru" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="599"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="599"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jIb-Jw-nRx" id="wrv-EA-68x">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="599"/>
@@ -221,6 +221,41 @@
                                             <outlet property="dietLabel" destination="etM-hv-sKv" id="zOb-qZ-ipa"/>
                                             <outlet property="fitguruLabel" destination="VnE-nP-ig6" id="sZ7-4Y-X00"/>
                                             <outlet property="workoutLabel" destination="LLd-eY-1hT" id="98k-vg-wzS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="71" id="YqA-HS-FwO" customClass="CommentCell" customModule="FitGuru" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="627" width="414" height="71"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YqA-HS-FwO" id="8RF-2p-gc7">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="71"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anthony " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZR-xI-Hln">
+                                                    <rect key="frame" x="16" y="8" width="73" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDz-hG-Fpn">
+                                                    <rect key="frame" x="97" y="8" width="138.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="2ZR-xI-Hln" firstAttribute="top" secondItem="8RF-2p-gc7" secondAttribute="top" constant="8" id="0j2-Fd-wGd"/>
+                                                <constraint firstItem="2ZR-xI-Hln" firstAttribute="leading" secondItem="8RF-2p-gc7" secondAttribute="leading" constant="16" id="HpV-96-hKN"/>
+                                                <constraint firstItem="IDz-hG-Fpn" firstAttribute="leading" secondItem="2ZR-xI-Hln" secondAttribute="trailing" constant="8" id="LSc-Ty-3bG"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IDz-hG-Fpn" secondAttribute="trailing" constant="8" id="Tep-O0-san"/>
+                                                <constraint firstItem="IDz-hG-Fpn" firstAttribute="top" secondItem="8RF-2p-gc7" secondAttribute="top" constant="8" id="XdF-jj-0ku"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IDz-hG-Fpn" secondAttribute="bottom" constant="8" id="jTQ-GO-U9B"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2ZR-xI-Hln" secondAttribute="bottom" constant="8" id="uNc-3Y-L6i"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="IDz-hG-Fpn" id="rbz-BG-qPZ"/>
+                                            <outlet property="nameLabel" destination="2ZR-xI-Hln" id="pZa-A0-eYy"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -600,7 +635,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="599" id="VIA-Mr-OOd" customClass="PostCell" customModule="FitGuru" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="599"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="599"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VIA-Mr-OOd" id="gqQ-Mq-pMv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="599"/>
