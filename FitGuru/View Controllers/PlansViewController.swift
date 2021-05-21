@@ -31,6 +31,9 @@ class PlansViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let query = PFQuery(className: "Posts")
         query.includeKey("author")
+        query.includeKey("comments")
+        query.includeKey("comments.author")
+        
         query.limit = 20
         
         query.findObjectsInBackground {(posts, error) in
