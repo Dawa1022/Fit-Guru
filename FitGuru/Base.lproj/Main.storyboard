@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -140,19 +140,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="n12-C7-TC2">
-                                <rect key="frame" x="0.0" y="88" width="414" height="750"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="551" id="jIb-Jw-nRx" customClass="PostCell" customModule="FitGuru" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="551"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="599" id="jIb-Jw-nRx" customClass="PostCell" customModule="FitGuru" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="599"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jIb-Jw-nRx" id="wrv-EA-68x">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="551"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="599"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diet Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIM-Gm-kJj">
-                                                    <rect key="frame" x="10" y="265.5" width="394" height="20.5"/>
+                                                    <rect key="frame" x="10" y="289.5" width="394" height="20.5"/>
                                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20.5" id="nwa-pa-PU0"/>
@@ -162,14 +162,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLd-eY-1hT">
-                                                    <rect key="frame" x="10" y="100" width="394" height="132"/>
+                                                    <rect key="frame" x="10" y="100" width="394" height="156"/>
                                                     <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etM-hv-sKv">
-                                                    <rect key="frame" x="10" y="309" width="394" height="166"/>
+                                                    <rect key="frame" x="10" y="333" width="394" height="190"/>
                                                     <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -223,11 +223,11 @@
                                             <outlet property="workoutLabel" destination="LLd-eY-1hT" id="98k-vg-wzS"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="58" id="YqA-HS-FwO" customClass="CommentCell" customModule="FitGuru" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="579" width="414" height="58"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="71" id="YqA-HS-FwO" customClass="CommentCell" customModule="FitGuru" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="623.5" width="414" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YqA-HS-FwO" id="8RF-2p-gc7">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anthony " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZR-xI-Hln">
@@ -257,28 +257,6 @@
                                             <outlet property="commentLabel" destination="IDz-hG-Fpn" id="rbz-BG-qPZ"/>
                                             <outlet property="nameLabel" destination="2ZR-xI-Hln" id="pZa-A0-eYy"/>
                                         </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="KAX-Xe-Cs5">
-                                        <rect key="frame" x="0.0" y="637" width="414" height="37.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KAX-Xe-Cs5" id="Udv-rD-VM0">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDG-AV-du2">
-                                                    <rect key="frame" x="16" y="8" width="390" height="21.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="RDG-AV-du2" secondAttribute="bottom" constant="8" id="0c4-tM-CFS"/>
-                                                <constraint firstItem="RDG-AV-du2" firstAttribute="leading" secondItem="Udv-rD-VM0" secondAttribute="leading" constant="16" id="J4F-OL-k31"/>
-                                                <constraint firstAttribute="trailing" secondItem="RDG-AV-du2" secondAttribute="trailing" constant="8" id="Nlf-H1-n9x"/>
-                                                <constraint firstItem="RDG-AV-du2" firstAttribute="top" secondItem="Udv-rD-VM0" secondAttribute="top" constant="8" id="xb7-y6-Pu2"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -314,7 +292,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N3G-iF-SWU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no_profile_pic" translatesAutoresizingMaskIntoConstraints="NO" id="N3G-iF-SWU">
                                 <rect key="frame" x="20" y="105" width="240" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -331,7 +309,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="kh4-Te-pHq"/>
                     <connections>
-                        <outlet property="usernameLabel" destination="mOL-wK-2ar" id="qrz-pE-fWu"/>
+                        <outlet property="profileNameLabel" destination="mOL-wK-2ar" id="pDa-FL-uQb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mk3-6l-Yhk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -660,7 +638,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="599" id="VIA-Mr-OOd" customClass="PostCell" customModule="FitGuru" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="599"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="599"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VIA-Mr-OOd" id="gqQ-Mq-pMv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="599"/>
@@ -778,6 +756,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="launch" width="722" height="728"/>
+        <image name="no_profile_pic" width="360" height="360"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
