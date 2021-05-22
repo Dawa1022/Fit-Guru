@@ -4,6 +4,9 @@ PODS:
     - Alamofire (~> 5.4)
   - Bolts/Tasks (1.9.1)
   - DropDown (2.3.13)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
   - Parse (1.19.2):
     - Parse/Core (= 1.19.2)
   - Parse/Core (1.19.2):
@@ -12,6 +15,7 @@ PODS:
 DEPENDENCIES:
   - AlamofireImage
   - DropDown
+  - MessageInputBar
   - Parse
 
 SPEC REPOS:
@@ -20,6 +24,7 @@ SPEC REPOS:
     - AlamofireImage
     - Bolts
     - DropDown
+    - MessageInputBar
     - Parse
 
 SPEC CHECKSUMS:
@@ -27,8 +32,9 @@ SPEC CHECKSUMS:
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
   Parse: 081fb8755c3000fd11df817eec235def233d0af3
 
-PODFILE CHECKSUM: 598949cbdd968b3ed3cd5b665f1c3349bc4234fc
+PODFILE CHECKSUM: e784bc128ac62eb141236715632a18db56614cf1
 
 COCOAPODS: 1.10.1

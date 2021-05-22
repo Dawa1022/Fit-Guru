@@ -6,7 +6,8 @@ target 'FitGuru' do
   use_frameworks!
   pod 'Parse'
   pod 'AlamofireImage'
-  pod 'DropDown' 
+  pod 'DropDown'
+  pod 'MessageInputBar'
   # Pods for FitGuru
 
   target 'FitGuruTests' do
